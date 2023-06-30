@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link href="style.css" rel="stylesheet" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <main>
+    <header class="header">
+      <img class="menu-hamburguer" src="assets/menu-hamburguer.svg" id="menuHamburguer" alt='Menu hamburguer mobile' />
+      <nav>
+        <ul class="nav-ul">
+          <li><a href="#apropos" class="nav-li">À Propos</a></li>
+          <li><a href="#projets" class="nav-li">Projets</a></li>
+          <li><a href="#competences" class="nav-li">Compétences</a></li>
+          <li>
+            <a href="#experience" class="nav-li">Formation et Expériences</a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <label class="switch" title='Boutton mode nuit'>
+        <input type="checkbox" onclick="dayMode()" id="toggleSwitch" />
+        <span class="slider round"></span>
+      </label>
+    </header>
+
+    <section id="initial">
+      <div class="container-initial">
+        <div class="text-initial">
+          <p>Je m'appelle</p>
+          <h1>KERKENI ABDESSATAR</h1>
+          <h2>Developpeur web full stack en formation</h2>
+          <a href="mailto:kerkeni.a@hotmail.com" class="contact"><img src="assets/whatsapp-brands 1.svg"
+              alt='Icone whatsapp' /> Contactez moi</a>
+        </div>
+
+        <div class="image-initial">
+          <img src="assets/Group 3.svg" alt='' />
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="sectOff">
+      <div class="container-env">
+        <div class="image-env">
+          <img src="assets/photo.png" alt='photo de moi' />
+        </div>
+
+        <div class="texte-env">
+          <h2>A propos</h2>
+          <p>
+            Je suis passionné d'informatique depuis toujours et j'ai décidé de me lancer dans une carrière dans ce
+            domaine. Issu d'une filière mathématique informatique appliquée aux sciences humaines et sociales, j'ai
+            acquis des connaissances solides dans ces domaines.
+            Malheureusement, je n'ai pas pu terminer ma scolarité à l'époque, et j'ai dû travailler dans la restauration
+            de luxe pendant 5 ans au Lido de Paris.
+            Cependant, ma passion pour l'informatique ne m'a jamais quitté et j'ai continué à me former de manière
+            autodidacte.
+            Lorsque le Lido a été racheté, j'ai pris la décision de reprendre mes études et de me plonger dans
+            l'apprentissage du HTML, CSS, JavaScript et PHP.
+            Cette reconversion m'a permis d'approfondir mes compétences en développement web et de concrétiser ma
+            passion pour les ordinateurs et la programmation.
+            Aujourd'hui, je suis ravi d'avoir saisi cette opportunité et je continue à me former et à élargir mes
+            connaissances dans le domaine de l'informatique.
+            Mon objectif est de mettre mes compétences au service de projets passionnants et de contribuer à la création
+            de solutions innovantes grâce à mes connaissances en développement web. </p>
+          <div class="bouton-env">
+            <a class="btn" href="https://fr.linkedin.com/in/abdessatar-kerkeni-8a485127a"><img
+                src="assets/linkedin-brands 1.svg" alt='Icone LinkkedIn' />Linkedin</a>
+            <a class="btn" href="assets/cv_2022.png"><img src="assets/Vector.svg" alt='icone cv' />CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets">
+      <h2 style="margin: 3em 0; text-align: center">Mes Projets</h2>
+      <div class="container-projets">
+        <div class="item-projet">
+          <h3>🌞 Meteo 🌞</h3>
+          <p>
+            Ce projet météo est une <span style="color: #ff9900;">petite merveille</span> ! Il exploite astucieusement la <span style="color: #ff9900;">géolocalisation</span> de l'utilisateur pour lui dévoiler les conditions météorologiques en <span style="color: #ff9900;">temps réel</span>. Grâce à une <span style="color: #ff9900;">API</span> bien taillée, il récupère les prévisions et affiche fièrement la température, la description de la météo et il indique également la <span style="color: #ff9900;">date et le lieu actuels</span>, histoire de ne pas se perdre en chemin. Et comme si cela ne suffisait pas, il joue les horloges en affichant l'heure qui défile sans relâche, se mettant à jour chaque seconde. Mais ce n'est pas tout ! Il a même le super pouvoir de vous révéler <span style="color: #ff9900;">l'état de charge de votre batterie</span> . Ce projet météo a tous les ingrédients pour vous faire tomber amoureux des données climatiques !</p>
+          <a href="https://satar.netlify.app/" class="btn">Voir</a>
+        </div>
+        <div class="item-projet">
+          <h3>🛒 Boutique Front End 🛒</h3>
+          <p>
+            Ce projet est une <span style="color: #FFA500;">boutique</span> dynamique qui met en avant toute la puissance du trio gagnant : <span style="color: #FFA500;">HTML</span>, <span style="color: #FFA500;">CSS</span> et <span style="color: #FFA500;">JavaScript</span>. Imaginez-vous parcourir cette boutique où les produits se dévoilent avec <span style="color: #FFA500;">des images à couper le souffle</span>, des <span style="color: #FFA500;">descriptions détaillées</span> qui font rêver, des <span style="color: #FFA500;">prix</span> qui ne vous feront pas crier au vol et des <span style="color: #FFA500;">stocks</span> qui vous diront si c'est "encore dispo" ou "déjà parti". Et là, la magie opère ! En cliquant sur un produit, vous le voyez s'animer en <span style="color: #FFA500;">temps réel</span> : l'image qui vous fait de l'œil, la description qui vous en dit plus, le prix qui ne vous fera pas pleurer et le stock qui vous dira "allez, sautez dessus" ou "attendez un peu". Et si le coup de foudre est là, il vous suffit de cliquer sur le bouton <span style="color: #FFA500;">"Ajouter au panier"</span> pour l'emporter avec vous. Le panier, quant à lui, ne manque pas de <span style="color: #FFA500;">style</span> en affichant le nombre d'articles que vous avez choisis et le total en <span style="color: #FFA500;">euros</span>. Et tout cela fonctionne grâce à un fichier <span style="color: #FFA500;">JSON</span> magique qui fait apparaître les produits comme par enchantement. Et pour couronner le tout, le pied de page vous offre une ribambelle d'informations avec des droits d'auteur bien protégés et un lien vers l'accueil. En résumé, cette boutique en ligne est une véritable perle pour vous permettre de <span style="color: #FFA500;">naviguer</span> aisément entre les produits, de les ajouter au panier et de passer commande avec le sourire.
+          </p>
+          <a href="https://satarshop.netlify.app" class="btn">Voir</a>
+        </div>
+
+        <div class="item-projet">
+          <h3>🐘 CRUD COMPLET SYMFONY 🐘</h3>
+          <p>
+            Voici un exemple d'application <span style="color: #FFA500;">e-commerce</span> aussi géniale qu'une boutique pleine à craquer. Attendez de voir ce qu'elle vous réserve ! Imaginez un <span style="color: #FFA500;">espace membre</span> où vous pourrez vous sentir comme chez vous, et un <span style="color: #FFA500;">espace administrateur</span> où vous serez aux commandes, tel un maître de l'univers. Cette application ne fait pas les choses à moitié ! Vous pouvez créer votre compte utilisateur en un clin d'œil et profiter d'un système complet de <span style="color: #FFA500;">CRUD</span> (Create, Read, Update, Delete) pour manipuler les données comme bon vous semble. Vous pourrez afficher, modifier, supprimer et ajouter des éléments à partir d'une base de données sans même souffler. Et ce n'est pas tout ! La sécurité est au rendez-vous pour protéger vos précieuses données. Avec le <span style="color: #FFA500;">PHP Symfony</span> en coulisses pour la partie back-end et un affichage en <span style="color: #FFA500;">HTML</span> et <span style="color: #FFA500;">CSS (Bootstrap)</span>, l'interface utilisateur est digne d'un défilé de mode. Préparez-vous à vivre une expérience e-commerce optimisée, où le pouvoir est entre vos mains.
+          </p>
+          <a href="https://github.com/Satar92/crudmembre" class="btn">Voir</a>
+        </div>
+
+        <div class="item-projet">
+          <h3> ➕Calculatrice Iphone ➗</h3>
+          <p>
+            Ce projet de calculatrice d'iPhone est un véritable joyau technologique ! Conçu avec passion, il repose entièrement sur les langages <span style="color: #FF4500;">HTML</span>, <span style="color: #FF4500;">CSS</span> et <span style="color: #FF4500;">JavaScript</span>. Grâce à ces technologies web modernes, l'interface utilisateur prend vie avec panache et réactivité. Le DOM (Document Object Model) est mis à contribution pour interagir en temps réel avec les éléments de la page. Pour une esthétique irrésistible, le CSS vient sublimer la mise en page avec son style bien léché. Et que dire de JavaScript ? Il orchestre la logique de calcul et les événements avec une maestria sans pareille, garantissant une expérience utilisateur fluide et immersive. Les opérations mathématiques, les conversions de types de données et la manipulation de chaînes sont autant de prouesses réalisées par JavaScript pour des calculs d'une précision redoutable. À la base, ce projet suit les grands principes de la programmation orientée objet, offrant une structure de code bien pensée et efficace. Enfin, les images et les icônes ajoutent une touche visuelle qui fait briller cette application de mille feux, pour le plus grand bonheur des utilisateurs.
+          </p>
+          <a href="https://satarcalc.netlify.app/" class="btn">Calculer</a>
+        </div>
+
+        <div class="item-projet">
+          <h3>🧠 Chess Game 🤴</h3>
+          <p>
+            Découvrez "<span style="color: #FF4500;">Vanilla Royale</span>", un jeu d'échecs rétro où seul le <span style="color: #FF4500;">JavaScript</span>, l'<span style="color: #FF4500;">HTML</span> et le <span style="color: #FF4500;">CSS</span> font la loi ! Affrontez vos amis ou une IA redoutable avec style et humour. Les règles classiques prennent vie dans une interface funky et pleine de charme. Des symboles Unicode stylés ajoutent une touche de magie à chaque mouvement. Notre IA utilise des astuces malicieuses pour relever le défi, mais vous pouvez toujours lui montrer qui est le boss. Préparez-vous à des batailles épiques en ligne et prouvez votre supériorité sur l'échiquier virtuel. Plongez dans l'aventure <span style="color: #FF4500;">Vanilla Royale</span> : fun, stratégie déjantée et humour garantis, avec une bonne dose de <span style="color: #FF4500;">JavaScript</span>, d'<span style="color: #FF4500;">HTML</span> et de <span style="color: #FF4500;">CSS</span> ! </p>
+          <a href="https://satarchess.netlify.app/" class="btn">Jouer</a>
+        </div>
+
+        <div class="item-projet">
+          <h3>Projet 6</h3>
+          <p>
+            En cours... </p>
+          <a href="#" class="btn">Voir</a>
+        </div>
+      </div>
+
+      <div class="image-astronaute">
+        <img src="assets/undraw_to_the_moon_v1mv 1.svg" />
+      </div>
+    </section>
+  </main>
+
+  <section class="sectOff" id="competences">
+    <div class="container-competences">
+      <div class="texte-competences">
+        <h2>Competences</h2>
+        <p>
+          Je possède une solide formation en mathématiques et informatique appliquée aux sciences humaines et sociales.
+          Mes compétences comprennent le développement web avec HTML, CSS, JavaScript et PHP <strong>Symfony</strong>,
+          ainsi que la manipulation de bases de données avec SQL. Je suis capable de créer des interfaces utilisateur
+          attrayantes et conviviales, et de résoudre des problèmes complexes grâce à ma logique de programmation. Mon
+          expérience dans la restauration de luxe m'a également permis de développer des compétences en gestion du
+          temps, en travail d'équipe et en résolution de problèmes sous pression.
+        </p>
+      </div>
+
+      <div class="icones-competences">
+        <div class="icone-container html">
+          <img src="assets/icon-html.svg" alt='Icone HTML' />
+          <p>HTML</p>
+        </div>
+
+        <div class="icone-container php">
+          <img src="assets/icon-php.svg" alt='Icone Php' />
+          <p>Symfony</p>
+        </div>
+
+        <div class="icone-container javascript">
+          <img src="assets/icon-js.svg" alt='Icone JavaScript' />
+          <p>JavaScript</p>
+        </div>
+
+        <div class="icone-container css">
+          <img src="assets/icon-css.svg" alt='Icone CSS' />
+          <p>CSS3</p>
+        </div>
+
+        <div class="icone-container figma">
+          <img src="assets/icon-figma.svg" alt='Icone Figma' />
+          <p>Figma</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2 class='h2-experience'>Diplômes et Experiences</h2>
+    <div class="container-experience">
+      <div class='image-experience'>
+        <img src='assets/undraw_stars_re_6je7 (1) 1.svg' alt=''>
+      </div>
+      <div class='image-experience-2'>
+        <img src='assets/undraw_Lost_online_re_upmy (2) 1.svg' alt=''>
+      </div>
+      <div class='flex-experience'>
+        <div class="item-experience">
+          <div class="track-item-experience">
+            <h3>Lorem ipsum dolor sit.</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatum eaque suscipit facere ipsa est
+            distinctio repellat odit, voluptates porro deleniti neque, nulla quis animi blanditiis nam odio voluptate
+            laboriosam.
+
+          </p>
+        </div>
+
+        <div class="item-experience">
+          <div class="track-item-experience">
+            <h3>Lorem ipsum dolor sit.</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, sapiente odio pariatur dolor neque, nam
+            aperiam vel, expedita autem sit ut vero modi quia. Veniam odit numquam deleniti reiciendis corporis.
+          </p>
+        </div>
+      </div>
+      <div class='flex-experience reverse'>
+        <div class="item-experience">
+          <div class="track-item-experience">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque optio culpa ratione dicta numquam id
+            consequatur illo error, iste aut dolore assumenda nulla esse aliquid harum voluptatum ipsam ea corporis!.
+          </p>
+        </div>
+        <div class="item-experience">
+          <div class="track-item-experience
+">
+            <h3>Lorem, ipsum.</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officia officiis repellendus praesentium
+            nihil eligendi voluptas! Tempora minus excepturi obcaecati saepe inventore in velit ullam at sint? Deleniti,
+            sequi vitae?
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="https://fr.linkedin.com/in/abdessatar-kerkeni-8a485127a"><img src="assets/linkedin-brands 1 (1).svg"
+          alt='Icone LinkedIn' /></a>
+      <a href="https://instagram.com/satarr92?igshid=MzNlNGNkZWQ4Mg=="><img src="assets/instagram-square-brands 1.svg"
+          alt='Icone Instagram' /></a>
+      <a href="https://github.com/Satar92"><img src="assets/github-square-brands 1.svg" alt='Icone Github' /></a>
+      <script src="script.js"></script>
+    </footer>
+</body>
+
+</html>
